@@ -48,6 +48,7 @@ class Song
   def self.new_from_filename(filename)
     new = self.new
     array = filename.split(/\-/)
+    binding.pry
     new.name = array
     new.artist_name = array.first
   end
