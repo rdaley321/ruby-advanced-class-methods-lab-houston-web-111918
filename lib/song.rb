@@ -51,5 +51,6 @@ class Song
     array[1].split(".mp3")
     new_song.name = array.first
     new_song.artist_name = array[1]
+    new_song
   end
 end
