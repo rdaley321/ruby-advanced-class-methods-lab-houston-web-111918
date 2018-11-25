@@ -49,7 +49,7 @@ class Song
     new = self.new
     array = filename.split(/\-/)
     binding.pry
-    new.name = array
-    new.artist_name = array.first
+    new.name = array.first
+    new.artist_name = array[1]
   end
 end
